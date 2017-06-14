@@ -21,6 +21,16 @@ body, h1, h2, h3, h4, h5, h6 {
    border-color: #B51915;
 }
 
+ul.navbar-nav {
+  padding-top: 12px;
+  font-size: 20px;
+}
+
+ul.navbar-nav li a {
+  color: #666;
+}
+
+/*
 .btn-skelton {
    color: #FFF;
    border-color: #FFF;
@@ -34,7 +44,7 @@ body, h1, h2, h3, h4, h5, h6 {
    background-color: rgba(255, 255, 255, 0.2);
    border-color: #FFF;
 }
-
+*/
 .btn-scala:active,
 .btn-scala:focus,
 .btn-scala:hover {
@@ -355,7 +365,7 @@ img.screenshot {
    .minus-margin-right {
       margin-right: -70px;
    }
-
+/*
    .btn-skelton {
       background-color: rgba(0, 0, 0, 0.3);
       border: 1px solid rgba(0, 0, 0, 0.8);
@@ -367,5 +377,6 @@ img.screenshot {
       background-color: rgba(0, 0, 0, 0.5);
       border: 1px solid rgba(0, 0, 0, 0.8);
    }
+*/
 }
 

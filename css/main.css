@@ -295,13 +295,15 @@ img.screenshot {
    background-repeat: no-repeat;
 }
 
-/*
+p.text-muted {
+  font-weight: normal;
+}
+
 @media screen and (max-width: 768px){
    .text-muted {
       color: #4d4d4d;
    }
 }
-*/
 
 @media screen and (min-width: 768px) {
 }

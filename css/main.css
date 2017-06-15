@@ -58,12 +58,6 @@ ul.navbar-nav li a {
    font-size: 24px;
 }
 
-/*
-.lighter {
-   font-weight: lighter;
-}
-*/
-
 .normal {
    font-weight: normal;
 }
@@ -122,13 +116,14 @@ ul.navbar-nav li a {
 
 #title-gitbucket h1 {
    font-family: "Helvetica Neue", "Lato", "Arial", "Meiryo", "メイリオ", "sans-serif" !important;
-   font-weight: 700;
+   font-weight: bold;
    margin: 10px 0;
 }
 
-#title-gitbucket h1 span.lighter {
+#title-gitbucket h1 span.normal {
    font-family: "Helvetica Neue", "Lato", "Arial", "Meiryo", "メイリオ", "sans-serif" !important;
-   font-weight: 100;
+   font-weight: normal;
+   font-size: 90%;
 }
 
 #title-gitbucket h1:last-of-type {

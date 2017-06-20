@@ -30,21 +30,6 @@ ul.navbar-nav li a {
   color: #666;
 }
 
-/*
-.btn-skelton {
-   color: #FFF;
-   border-color: #FFF;
-   background: none;
-}
-
-.btn-skelton:active,
-.btn-skelton:focus,
-.btn-skelton:hover {
-   color: #FFF;
-   background-color: rgba(255, 255, 255, 0.2);
-   border-color: #FFF;
-}
-*/
 .btn-scala:active,
 .btn-scala:focus,
 .btn-scala:hover {
@@ -366,18 +351,6 @@ p.text-muted {
    .minus-margin-right {
       margin-right: -70px;
    }
-/*
-   .btn-skelton {
-      background-color: rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(0, 0, 0, 0.8);
-   }
 
-   .btn-skelton:active,
-   .btn-skelton:focus,
-   .btn-skelton:hover {
-      background-color: rgba(0, 0, 0, 0.5);
-      border: 1px solid rgba(0, 0, 0, 0.8);
-   }
-*/
 }
 

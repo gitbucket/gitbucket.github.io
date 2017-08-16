@@ -179,6 +179,9 @@ ul.navbar-nav li a {
 
 #activities .divider .pipe {
    font-size: 15px;
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
 }
 
 

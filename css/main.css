@@ -8,7 +8,7 @@ body {
    padding-top: 0;
 }
 body, h1, h2, h3, h4, h5, h6 {
-   font-family: "Helvetica Neue", "Lato", "Arial", "Meiryo", "メイリオ", "sans-serif" !important;
+   font-family: "Helvetica Neue", Lato, Arial, sans-serif !important;
 }
 
 .scala {
@@ -179,6 +179,9 @@ ul.navbar-nav li a {
 
 #activities .divider .pipe {
    font-size: 15px;
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
 }
 
 

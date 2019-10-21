@@ -1,0 +1,10 @@
+## IDE Specific
+.idea/
+out/s
+*.iml
+*.ipr
+*.iws
+
+.settings/
+.classpath
+.project

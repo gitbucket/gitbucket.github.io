@@ -151,7 +151,7 @@ ul.navbar-nav li a {
 
 #activities .num {
    color: #d4d4d4;
-   font-size: 48px;
+   font-size: 42px;
    font-family: "Helvetica Neue", "Lato", "Arial", "Meiryo", "メイリオ", "sans-serif" !important;
    font-style: normal !important;
    font-weight: 100 !important;
@@ -164,7 +164,8 @@ ul.navbar-nav li a {
 
 #activities .stars,
 #activities .forks,
-#activities .contributors {
+#activities .contributors,
+#activities .releases {
    color: #ddd;
    font-size: 20px;
    font-style: normal !important;

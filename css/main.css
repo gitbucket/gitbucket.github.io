@@ -155,6 +155,7 @@ ul.navbar-nav li a {
    font-family: "Helvetica Neue", "Lato", "Arial", "Meiryo", "メイリオ", "sans-serif" !important;
    font-style: normal !important;
    font-weight: 100 !important;
+   transition: color 0.2s ease, text-shadow 0.2s ease;
 }
 
 #activities .num span.octicon{
@@ -170,6 +171,30 @@ ul.navbar-nav li a {
    font-size: 20px;
    font-style: normal !important;
    font-weight: 100 !important;
+   transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+/* Glow the text only on hover; icon is explicitly excluded below. */
+#activities .stars:hover,
+#activities .forks:hover,
+#activities .contributors:hover,
+#activities .releases:hover,
+#activities .stars:hover .num,
+#activities .forks:hover .num,
+#activities .contributors:hover .num,
+#activities .releases:hover .num {
+   color: #fff;
+   text-shadow:
+     0 0 0.5px rgba(255, 255, 255, 0.8),
+     0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+#activities .stars:hover .num span.octicon,
+#activities .forks:hover .num span.octicon,
+#activities .contributors:hover .num span.octicon,
+#activities .releases:hover .num span.octicon {
+   color: #999;
+   text-shadow: none;
 }
 
 #activities .divider {

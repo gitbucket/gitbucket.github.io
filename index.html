@@ -17,7 +17,9 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css"
+        integrity="sha512-iqlbcaQvfS5zzjNu6YAvgpzAJc7Br48P51Q38Re9cOrAd8ZXYvBRaiMg/gX7+y/hvMndauY4ImEsfG3FqIBJJA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
   <link href="https://fonts.googleapis.com/css?family=Lato:100normal,300normal,700normal&subset=latin,latin-ext" rel="stylesheet" type="text/css">
@@ -36,8 +38,6 @@
   </style>
   <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
   <link rel="stylesheet" href="css/main.css">
-
-  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -48,7 +48,7 @@
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" href="/gitbucket-news">
-        <img id="logo-gitbucket" class="minus-margin-left" src="./img/logo-gitbucket.png"/>
+        <img id="logo-gitbucket" class="minus-margin-left" src="./img/logo-gitbucket.png" alt="GitBucket"/>
       </a>
     </div>
     <div class="collapse navbar-collapse">
@@ -127,7 +127,7 @@
       <div class="stars margin-bottom col-lg-2 col-lg-offset-half text-center">
             <div class="num">
               <span class="octicon octicon-star"></span>
-              8,400
+              9,400
             </div>
         stars
       </div>
@@ -151,7 +151,7 @@
       <div class="contributors margin-bottom col-lg-2 text-center">
             <div class="num">
               <span class="octicon octicon-organization"></span>
-              160
+              178
             </div>
         contributors
       </div>
@@ -163,7 +163,7 @@
       <div class="releases margin-bottom col-lg-2 text-center">
             <div class="num">
               <span class="octicon octicon-package"></span>
-              100
+              120
             </div>
         releases
       </div>
@@ -203,19 +203,19 @@
       <div class="col-lg-6">
         <div id="slides">
           <div>
-            <img class="screenshot" src="./img/screenshots/screenshot-repository_viewer.png" alt="">
+            <img class="screenshot" src="./img/screenshots/screenshot-repository_viewer.png" alt="GitBucket repository viewer showing the file browser and commit history">
           </div>
           <div>
-            <img class="screenshot" src="./img/screenshots/screenshot-issues.png" alt="">
+            <img class="screenshot" src="./img/screenshots/screenshot-issues.png" alt="GitBucket issue tracker showing a list of open issues">
           </div>
           <div>
-            <img class="screenshot" data-lazy="./img/screenshots/screenshot-pull_request.png" alt="">
+            <img class="screenshot" data-lazy="./img/screenshots/screenshot-pull_request.png" alt="GitBucket pull request view showing a code diff and comments">
           </div>
           <div>
-            <img class="screenshot" data-lazy="./img/screenshots/screenshot-wiki.png" alt="">
+            <img class="screenshot" data-lazy="./img/screenshots/screenshot-wiki.png" alt="GitBucket wiki page showing rendered documentation content">
           </div>
           <div>
-            <img class="screenshot" data-lazy="./img/screenshots/screenshot-plugin_system.png" alt="">
+            <img class="screenshot" data-lazy="./img/screenshots/screenshot-plugin_system.png" alt="GitBucket plugin management screen listing installed plugins">
           </div>
         </div>
       </div>
@@ -233,9 +233,13 @@
 </div>
 <!-- /container -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.7.1.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+        integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="js/vendor/bootstrap.min.js"></script>
 
